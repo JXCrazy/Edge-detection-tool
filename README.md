@@ -1,10 +1,6 @@
 # Edge-detection-tool
 Noise-robust edge detection, including some codes of detecting edge.
 Readme of Pakage of Edge-detection-tool
-Function 1 “anisotropic_Directional_derivative_filter.m” is used to a set of anisotropic directional derivative filters. The spatial support of the filter is [-20,20]×[-20,20] and the orientation angles are uniformly distributed on the interval [0,π].
-3. 
-Function 4 “non_maxima_suppression.m” is used to extract the maxima of the gradient magnitude of an image by using the two partial derivatives of the image. Refer to M. S. Nixon and A. S. Aguado, “Feature Extraction and Image Processing,” Chapter 3, Newnes, 2002.
-Function 5 “SMED.m” is the edge detector based on scale multiplication. Refer to P. Bao, L. Zhang, and X-L Wu, “Canny edge detection enhancement by scale multiplication,” IEEE Trans. Pattern Anal. Mach. Intell., 27(9): 1485-1490, 2005.
 
 1. “Canny-detector.m” is the Canny detector equipped by the contrast equalization and noise-dependent lower thresholds.Refer to J. Canny, “A computational approach to edge detection,” IEEE Trans. Pattern Anal. Mach. Intell., 8(6): 679-698, 1986.M. S. Nixon and A. S. Aguado, “Feature Extraction and Image Processing,” Chapter 3, Newnes, 2002.
 
